@@ -1,0 +1,69 @@
+/* Estilo básico para la tabla */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+}
+
+/* Estilo para las celdas y encabezados */
+th, td {
+    border: 1px solid #333; /* Color del borde */
+    padding: 10px; /* Espaciado dentro de las celdas */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #f4f4f4; /* Color de fondo para los encabezados */
+    font-weight: bold; /* Texto en negrita */
+}
+
+tr.shadow-row{
+    background-color: #1b1b1b7d;
+    
+}
+
+/* Shadow for the entire row */
+/* tr.shadow-row {
+    display: block; /* Make the row block-level
+    box-shadow: 3px 3px 5px #6b6a6a33;  
+    margin-bottom: 10px; 
+} */
+
+/* Prevent table structure from breaking */
+/* tr.shadow-row td, tr.shadow-row th {
+    display: block;
+} */
+
+/* Clases para colores de celdas */
+.color1 {
+    background-color: #f2f2f2; /* Gris claro */
+}
+
+.color2 {
+    background-color: #e6f7ff; /* Azul claro */
+}
+
+.color3 {
+    background-color: #ffcccc; /* Rojo claro */
+}
+
+.color4 {
+    background-color: #ccffcc; /* Verde claro */
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    background-color: #fafafa; /* Fondo general de la página */
+    color: #333; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente para todo el cuerpo */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    margin: 20px; /* Margen alrededor del contenido */
+}
+
+/* Estilo para el título */
+h2 {
+    text-align: center; /* Centra el título */
+    color: #333; /* Color del título */
+}
